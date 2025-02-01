@@ -65,16 +65,16 @@ function USER_CONFIG(inst, initialized) {
 
     //Muutetaan lämpötilan perusteella lämmitystuntien määrää ja minuutteja
     if (temp.tC <= -15) {
-      hours = 8;
+      hours = 17;
       minutes = 60;
 
     } else if (temp.tC <= -10) {
-      hours = 7;
-      minutes = 45;
+      hours = 16;
+      minutes = 60;
 
     } else if (temp.tC <= -5) {
-      hours = 6;
-      minutes = 45;
+      hours = 15;
+      minutes = 60;
       
     } else {
       //Ei tehdä mitään --> käytetään käyttöliittymän asetuksia
